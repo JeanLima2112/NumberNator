@@ -32,6 +32,7 @@ public class GameUI extends JFrame {
 
         inputField = new JTextField(10);
         inputField.setHorizontalAlignment(JTextField.CENTER);
+        inputField.addActionListener(new GuessListener());
         inputField.setBorder(BorderFactory.createLineBorder(new Color(70, 130, 180), 2)); // Azul Steel
 
         guessButton = new JButton("Adivinhar");
@@ -113,7 +114,7 @@ public class GameUI extends JFrame {
 
     private void resetGame() {
         gameLogic.resetGame();
-        feedbackLabel.setText("Digite um número entre 1 e 100");
+        feedbackLabel.setText("Digite um número entre 1 e 1000");
         attemptsLabel.setText("Tentativas: 0");
         hintLabel.setText("");
         guessButton.setEnabled(true);
