@@ -3,4 +3,4 @@
 
 
 ## Veja o exemplo de Funcionamento
-[![Assista ao vídeo](https://img.youtube.com/vi/ID_DO_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=ID_DO_VIDEO)
+![Assista ao vídeo](https://github.com/JeanLima2112/NumberNator/blob/main/NumberNator/assets/Video%20Exemplo.mp4)
