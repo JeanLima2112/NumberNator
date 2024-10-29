@@ -33,7 +33,7 @@ public class GameUI extends JFrame {
         inputField = new JTextField(10);
         inputField.setHorizontalAlignment(JTextField.CENTER);
         inputField.addActionListener(new GuessListener());
-        inputField.setBorder(BorderFactory.createLineBorder(new Color(70, 130, 180), 2)); // Azul Steel
+        inputField.setBorder(BorderFactory.createLineBorder(new Color(255, 215, 0), 2)); 
 
         guessButton = new JButton("Adivinhar");
         guessButton.setBackground(new Color(0, 123, 255));
@@ -117,7 +117,8 @@ public class GameUI extends JFrame {
         feedbackLabel.setText("Digite um número entre 1 e 1000");
         attemptsLabel.setText("Tentativas: 0");
         hintLabel.setText("");
-        guessButton.setEnabled(true);
+        hintButton.setVisible(true);
+        guessButton.setVisible(true);
         restartButton.setVisible(false);
     }
 
@@ -130,7 +131,8 @@ public class GameUI extends JFrame {
 
                 if (acertou) {
                     feedbackLabel.setText("Parabéns! Você acertou o número!");
-                    guessButton.setEnabled(false);
+                    guessButton.setVisible(false);
+                    hintButton.setVisible(false);
                     restartButton.setVisible(true);
                 } else {
                     feedbackLabel.setText(palpite < gameLogic.getNumeroSecreto() ? "O número secreto é maior."
