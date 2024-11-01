@@ -1,4 +1,4 @@
-package com.mycompany.numbergame;
+package NumberNator.numbergame;
 
 import javax.swing.SwingUtilities;
 

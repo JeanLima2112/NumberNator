@@ -1,4 +1,5 @@
-package com.mycompany.numbergame;
+package NumberNator.numbergame;
+
 
 import java.util.Random;
 
