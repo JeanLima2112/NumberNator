@@ -10,7 +10,7 @@ Abaixo está uma captura de tela do programa NumberNator em execução:
 
 
 
-
+[Assista ao vídeo](https://github.com/JeanLima2112/NumberNator/blob/main/NumberNator/assets/game.mp4)
 
 ## Funcionalidades
 
