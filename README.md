@@ -6,11 +6,9 @@
 
 ## Exemplo do Programa em Execução
 
-Abaixo está uma captura de tela do programa NumberNator em execução:
+Abaixo está uma demonstração do programa NumberNator em execução:
 
-
-
-[Assista ao vídeo](https://github.com/JeanLima2112/NumberNator/blob/main/NumberNator/assets/game.mp4)
+https://github.com/user-attachments/assets/2f2f8643-d513-4e8d-9bf2-4d71a3ab009b
 
 ## Funcionalidades
 
