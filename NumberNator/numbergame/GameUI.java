@@ -1,4 +1,5 @@
 package NumberNator.numbergame;
+
 import javax.swing.*;
 
 import java.awt.*;
@@ -33,15 +34,15 @@ public class GameUI extends JFrame {
         inputField = new JTextField(10);
         inputField.setHorizontalAlignment(JTextField.CENTER);
         inputField.addActionListener(new GuessListener());
-        inputField.setForeground(Color.WHITE); 
+        inputField.setForeground(Color.WHITE);
         inputField.setBackground(new Color(34, 34, 34));
         inputField.setBorder(new RoundBorder(15, Color.GRAY));
 
         guessButton = new JButton("Adivinhar");
         guessButton.addActionListener(new GuessListener());
         guessButton.setForeground(Color.RED);
-        guessButton.setBorder(new RoundBorder(15, Color.RED)); 
-        guessButton.setContentAreaFilled(false);  
+        guessButton.setBorder(new RoundBorder(15, Color.RED));
+        guessButton.setContentAreaFilled(false);
 
         hintButton = new JButton("Dica");
         hintButton.setForeground(Color.GREEN);
@@ -52,7 +53,7 @@ public class GameUI extends JFrame {
         restartButton = new JButton("Reiniciar");
         restartButton.addActionListener(e -> resetGame());
         restartButton.setVisible(false);
-        restartButton.setForeground(Color.CYAN); 
+        restartButton.setForeground(Color.CYAN);
         restartButton.setBorder(new RoundBorder(15, Color.CYAN));
         restartButton.setContentAreaFilled(false);
 
@@ -151,7 +152,7 @@ public class GameUI extends JFrame {
                     hintButton.setVisible(false);
                     restartButton.setVisible(true);
                     inputField.setVisible(false);
-                    hintLabel.setVisible(false);
+
                     titleLabel.setVisible(false);
                 } else {
                     feedbackLabel.setText(palpite < gameLogic.getNumeroSecreto() ? "O número secreto é maior."
