@@ -8,7 +8,9 @@
 
 Abaixo está uma captura de tela do programa NumberNator em execução:
 
-![NumberNator em execução](NumberNator\assets\image.png)
+
+
+
 
 ## Funcionalidades
 
