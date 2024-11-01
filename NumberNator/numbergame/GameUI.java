@@ -133,6 +133,7 @@ public class GameUI extends JFrame {
         hintLabel.setVisible(true);
         hintButton.setVisible(true);
         guessButton.setVisible(true);
+        titleLabel.setVisible(true);
         restartButton.setVisible(false);
         inputField.setVisible(true);
     }
@@ -151,6 +152,7 @@ public class GameUI extends JFrame {
                     restartButton.setVisible(true);
                     inputField.setVisible(false);
                     hintLabel.setVisible(false);
+                    titleLabel.setVisible(false);
                 } else {
                     feedbackLabel.setText(palpite < gameLogic.getNumeroSecreto() ? "O número secreto é maior."
                             : "O número secreto é menor.");
